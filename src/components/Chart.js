@@ -26,6 +26,7 @@ const Chart = ({ children }) => {
     <SChart>
       <h1>Sarah's List For The Week</h1>
       <h2>April 26th 2022</h2>
+      <h3>HAPPY LESBIAN VISIBILITY WEEK</h3>
       <i>I'm gay so I'm right.</i>
       <br />
       {children}
