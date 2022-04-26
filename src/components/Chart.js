@@ -25,7 +25,7 @@ const Chart = ({ children }) => {
   return (
     <SChart>
       <h1>Sarah's List For The Week</h1>
-      <h2>April 25th 2022</h2>
+      <h2>April 26th 2022</h2>
       <i>I'm gay so I'm right.</i>
       <br />
       {children}
