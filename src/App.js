@@ -9,6 +9,14 @@ function App() {
         <Chart>
           <br />
 
+          <a
+            href="https://open.spotify.com/playlist/7x3jw9stTRHNIE0huW4n6F?si=b79a23d4f7a54eac"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Please enjoy my spotify playlist for the week
+          </a>
+          <br />
           <h1>Gay Stuff ⌐■_■</h1>
           <Item
             background="#9d0053"
