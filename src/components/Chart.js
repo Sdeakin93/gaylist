@@ -8,6 +8,7 @@ const SChart = styled.div`
   max-width: 100%;
   padding: 100px;
   color: black;
+  margin-bottom: 10px;
 
   @media screen and (max-width: 768px) {
     text-align: center;
@@ -24,8 +25,9 @@ const Chart = ({ children }) => {
   return (
     <SChart>
       <h1>Sarah's List For The Week</h1>
-      <i>I'm gay so I'm right.</i>
       <h2>April 25th 2022</h2>
+      <i>I'm gay so I'm right.</i>
+      <br />
       {children}
     </SChart>
   );

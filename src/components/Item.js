@@ -6,7 +6,7 @@ const SItem = styled.div`
   background: ${(p) => (p.background ? p.background : "white")};
   display: flex;
   padding: 20px;
-  flex-direction: ${(p) => (p.right ? "row" : "row-reverse")};
+  flex-direction: ${(p) => (p.right ? "row-reverse" : "row")};
 
   @media screen and (max-width: 768px) {
     display: grid;
@@ -19,9 +19,17 @@ const SItem = styled.div`
 
 const SText = styled.div`
   position: relative;
+  max-width: 75%;
+  padding-left: ${(p) => (p.right ? "10px" : "90px")};
+  padding-right: ${(p) => (p.right ? "90px" : "10px")};
   color: ${(p) => (p.color ? p.color : "black")};
   p {
     font-size: 14px;
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    padding: 0px;
   }
 `;
 
