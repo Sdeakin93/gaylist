@@ -8,6 +8,8 @@ function App() {
       <header className="App-header">
         <Chart>
           <br />
+
+          <h1>Gay Stuff ⌐■_■</h1>
           <Item
             background="#9d0053"
             alt="Charles and Carlos"
@@ -22,8 +24,8 @@ function App() {
           />
           <Item
             background="#cc5494"
-            text="I am literally obsessed with this podcast and it is the fucnniest thing in the world."
-            title="Trusty Hogs podcast giving me a taste of home"
+            text="I am literally obsessed with this podcast and it is the funniest thing in the world. Catherine and Helen plz never stop."
+            title="Trusty Hogs giving me a taste of home"
           />
           <Item
             background="#f78951"
@@ -32,15 +34,15 @@ function App() {
           />
           <Item
             background="#ef652e"
-            title="Jinkx Monsoon's existence "
-            text="I love drag. So much. I need to learn to walk in heels."
+            title="Buying New Balance shoes on StockX"
+            text="I can't wait to look like a 90s sitcom dad with these new shoes."
           />
           <Item
             background="#d22313"
             title="Smelling good"
-            text="Smell sexy be sexy"
+            text="Smell sexy, be sexy. I remembered this week that Harry Styles and I wear the same fragrance and it made me feel more confident then anything ever has before."
           />
-          <h1>Bad Stuff</h1>
+          <h1>Straight Stuff ¯\_(ツ)_/¯</h1>
           <Item
             background="#000000"
             color="white"
