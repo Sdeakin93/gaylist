@@ -1,0 +1,34 @@
+import * as React from "react";
+
+import styled from "styled-components";
+
+const SChart = styled.div`
+  margin: auto;
+  border-radius: 10px;
+  max-width: 100%;
+  padding: 100px;
+  color: black;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    padding-top: 1rem;
+    padding: 0px;
+    img {
+      margin: 0 auto;
+      max-width: 80%;
+    }
+  }
+`;
+
+const Chart = ({ children }) => {
+  return (
+    <SChart>
+      <h1>Sarah's List For The Week</h1>
+      <i>I'm gay so I'm right.</i>
+      <h2>April 25th 2022</h2>
+      {children}
+    </SChart>
+  );
+};
+
+export default Chart;
