@@ -22,7 +22,7 @@ const SText = styled.div`
   max-width: 75%;
   padding-left: ${(p) => (p.right ? "10px" : "90px")};
   padding-right: ${(p) => (p.right ? "90px" : "10px")};
-  color: ${(p) => (p.color ? p.color : "black")};
+  color: ${(p) => (p.color ? p.color : "white")};
   p {
     font-size: 14px;
   }
