@@ -35,7 +35,7 @@ function App() {
             text="I am literally obsessed with this podcast and it is the funniest thing in the world. Catherine and Helen plz never stop."
             title="Trusty Hogs giving me a taste of home"
           />
-          <Item
+          {/* <Item
             background="#f78951"
             title="Rina Sawayama's music"
             text="More specifically the guitar solo in Dynasty because I can play it and I will play it on stage thxs"
@@ -49,12 +49,17 @@ function App() {
             background="#d22313"
             title="Smelling good"
             text="Smell sexy, be sexy. I remembered this week that Harry Styles and I wear the same fragrance and it made me feel more confident then anything ever has before."
-          />
+          /> */}
           <h1>Straight Stuff ¯\_(ツ)_/¯</h1>
           <Item
             background="#000000"
             color="white"
             title="Elon buying twitter :("
+          />
+          <Item
+            background="#000000"
+            color="white"
+            title="The ending of Killing Eve being homophobic"
           />
         </Chart>
       </header>
